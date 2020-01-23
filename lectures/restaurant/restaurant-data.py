@@ -31,3 +31,6 @@ regr.predict([[new_total_bill, new_size]])
 
 # Explore data
 
+
+
+# If you are given data, should you go and build a prediction model right away? no
