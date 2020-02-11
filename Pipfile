@@ -13,6 +13,7 @@ numpy = "*"
 matplotlib = "*"
 jupyter = "*"
 scipy = "*"
+nbconvert = "*"
 
 [requires]
 python_version = "3.8"
