@@ -18,3 +18,9 @@ def get_mae_dtr(max_leaf_nodes, x_train, y_train, x_test, y_test):
     mae = mean_absolute_error(y_test, y_test_pred)
 
     return mae
+
+def currency(num):
+    
+    import locale
+    _ = locale.setlocale(locale.LC_ALL, '')
+    return str(locale.currency(num, grouping=True))
