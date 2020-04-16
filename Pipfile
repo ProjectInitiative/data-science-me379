@@ -17,6 +17,7 @@ scipy = "*"
 seaborn = "*"
 mlxtend = "*"
 scikit-surprise = "*"
+pulp = "*"
 
 [requires]
 python_version = "3.8"
